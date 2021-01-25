@@ -1,5 +1,13 @@
 # https://www.hackerrank.com/challenges/tree-top-view/problem?isFullScreen=true
 
+# ====================================================================================================
+# The goal is empty out q
+# Initialize root as 0, go left -1, go right +1, then only print unique value after +-1
+# root.info -> data
+# root.left -> left node (not left data, we still need to call root.left.info to find out left data)
+# every time pop out node, we check left and right node
+# ====================================================================================================
+
 
 def topView(root):
     #Write your code here
